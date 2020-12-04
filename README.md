@@ -7,4 +7,4 @@
 ### Despite my best efforts, these two approaches cannot currently confidently predict mutations in the SARS-CoV-2 spike glycoprotein amino acid sequence. This can be illustrated with an example. Site 222 on the glycoprotein amino acid sequence was selected for single site mutation prediction because it was found to be the most abundant mutation. While the model classified whether it would mutate to an accuracy of ~56%, this value is inconclusive, because it is nearly identical to the data distribution. That is, it may as well have returned the exact same binary value each time, and would have still obtained a similar accuracy. Similarly, multilabel binary classification was inconclusive as well. Further details on the possible reasons for these results are included in the final project poster. 
 ### mais_final_project.pdf contains the final project poster 
 ### main.pynb contains all the code needed to run this project. It contains preprocessing steps, model assembling, and model training. All models were implemented using the Keras framework.
-
+### amino_acid contains a previous version of the preprocessing stage. It is not needed for running main.pynb
