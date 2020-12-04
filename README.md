@@ -1,4 +1,4 @@
-# MAIS202 Final Project: Time Series Prediction Of SARS-CoV-2 Spike Glycoprotein Amino Acid Mutations With LSTM Networks
+# MAIS 202 Final Project: Time Series Prediction Of SARS-CoV-2 Spike Glycoprotein Amino Acid Mutations With LSTM Networks
 ### Final project files for MAIS 202 Fall 2020 cohort. This project sought to predict whether next generation amino acid mutations would occurr in the spike glycoprotein of SARS-CoV-2. Two approaches were taken, and dual stacked LSTM neural network architecture was employed.
 ### 1) Multilabel binary classification
 #### Input a list of protein embedded representations of amino acid sequences tracing the estimated evolutionary path of SARS-CoV-2 in the past 10 months and return a binary vector labelling whether each site would mutate (1 = mutation, 0 = no mutation).
